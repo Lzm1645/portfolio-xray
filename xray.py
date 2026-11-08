@@ -351,6 +351,8 @@ def main() -> int:
         if secid:
             returns[holding.ticker] = kline_returns(secid)
     result = build_report(holdings, quotes, returns)
+    if result["total"] <= 0:
+        raise SystemExit("没有取到任何行情：检查代码是否正确、网络是否可达（东财接口）")
     markdown = render_markdown(result)
     if args.out:
         args.out.write_text(markdown, encoding="utf-8")
