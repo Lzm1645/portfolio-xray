@@ -1,0 +1,11 @@
+ticker,shares,cost_basis,note
+VOO,30,600,核心宽基
+RSP,20,190,等权
+XLV,25,160,医疗
+XLF,20,52,金融
+XLE,8,58,能源对冲
+NVDA,10,150,AI 优质
+TSM,12,300,AI 制造
+GOOGL,10,310,价值期权
+SHY,50,82,短债
+GLD,10,390,黄金
