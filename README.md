@@ -6,6 +6,14 @@
 
 散户的组合问题通常不是「买什么」，而是「不知道自己拿了什么」：单一持仓过重、股票占比过高、没有缓冲、估值和收益看不到。这个工具用公开数据把这几件事一次算清楚，输出一份可以直接发给人看的 Markdown。
 
+## 测试
+
+```bash
+PYTHONPATH=. python3 -m unittest discover -s tests -v
+```
+
+（当前账号的 GitHub Actions 因计费问题被锁，仓库暂不带 CI 工作流。）
+
 ## 用法
 
 ```bash
