@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>组合体检 · portfolio-xray</title>
+<style>
+body{margin:0;background:#0e1726;color:#eaf0f8;font-family:-apple-system,"PingFang SC",system-ui,sans-serif;line-height:1.7}
+.wrap{max-width:860px;margin:0 auto;padding:56px 24px 80px}
+h1{font-size:40px;line-height:1.2;margin:0 0 12px}
+h2{font-size:24px;margin:44px 0 12px}
+p,li{font-size:17px;color:#c9d6e8}
+.tag{display:inline-block;background:#1f6feb;border-radius:10px;padding:6px 14px;font-size:14px;margin-bottom:20px}
+.price{font-size:34px;color:#ffd166;font-weight:700;margin:18px 0}
+.buy{display:inline-block;background:#ffd166;color:#0e1726;font-weight:700;padding:14px 26px;border-radius:12px;text-decoration:none;margin:10px 0}
+.card{background:#16233a;border-radius:16px;padding:24px}
+img{max-width:100%;border-radius:16px;display:block;margin:20px 0}
+code{background:#1d2c46;padding:2px 6px;border-radius:6px;font-size:14px}
+.small{font-size:13px;color:#7f8ea3}
+</style>
+</head>
+<body><div class="wrap">
+<span class="tag">美股 / ETF · 组合体检</span>
+<h1>把持仓 CSV 变成一份看得懂的体检报告</h1>
+<p>不用注册、不用连券商。把 <code>ticker, shares</code> 发给我，24 小时内给你一份 Markdown/PDF 报告。</p>
+<img src="assets/cover.png" alt="报告示例">
+<div class="card">
+<h2>报告里有什么</h2>
+<ul>
+<li>总市值、权重、第一大/前五大集中度</li>
+<li>每只持仓的 YTD、近一年收益、PE</li>
+<li>股票 / 债券 / 商品 / 加密的占比</li>
+<li>三个压力情景：股票 -10%、股票 -20% + 利率 +100bp、风险偏好回升</li>
+<li>风险提示与通用再平衡建议</li>
+</ul>
+<div class="price">¥9.9 / 份 · 三版 ¥39 · 投稿/月度护航 ¥99</div>
+<a class="buy" href="https://skillpay.alipay.com/user/product?merchantId=2088922966613701&productId=P0806000212847484">支付宝购买（¥9.9）</a>
+</div>
+<h2>怎么用</h2>
+<ol>
+<li>整理持仓 CSV：<code>ticker,shares</code>（如 <code>VOO,30</code>）</li>
+<li>在 SkillPay 下单，或直接把 CSV 发我确认</li>
+<li>24 小时内收到报告；需要 PDF/加急另说</li>
+</ol>
+<h2>边界</h2>
+<p>只做数据整理、情景测算与通用风险提示，<strong>不荐股、不代客理财、不承诺收益</strong>；数据来自公开行情，可能有延迟，不构成投资建议。</p>
+<p class="small">工具开源：github.com/Lzm1645/portfolio-xray（MIT）。</p>
+</div></body></html>
